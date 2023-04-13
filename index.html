@@ -5,16 +5,37 @@
   </head>
   <body>
     <div
-      className="navigation"
-      style="width: 100vw; height: 50px; background: gray"
+      className="page-wrapper"
+      style="width: 100vw; height: 100vh; display: flex; flex-direction: column"
     >
-      NAVIGATION
-    </div>
-    <div
-      className="footer"
-      style="width: 200vw; height: 50px; background: gray"
-    >
-      FOOTER
+      <div
+        className="page-navigation"
+        style="
+          width: 100%;
+          height: 50px;
+          display: flex;
+          background: #dcdcdc;
+          align-items: center;
+        "
+      >
+        <span style="margin: 0 auto">NAVIGATION</span>
+      </div>
+      <div
+        className="page-content"
+        style="width: 90%; height: 100%; margin: 0 auto"
+      ></div>
+      <div
+        className="page-footer"
+        style="
+          width: 100%;
+          height: 50px;
+          display: flex;
+          background: #dcdcdc;
+          align-items: center;
+        "
+      >
+        <span style="margin: 0 auto">FOOTER</span>
+      </div>
     </div>
   </body>
 </html>
